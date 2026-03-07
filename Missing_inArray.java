@@ -18,4 +18,9 @@ class Solution {
         }
         return sum-sum1;
     }
+
 }
+
+// This is solution of missing element in array from gfg
+// click the below link to practice
+// https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1?page=1&category=Arrays,Java&sortBy=submissions
