@@ -1,0 +1,25 @@
+/*
+class Node
+{
+    int data;
+    Node next;
+
+    Node(int data)
+    {
+        this.data = data;
+        this.next = next;
+    }
+}
+*/
+
+class Solution {
+    public Node deleteHead(Node head) {
+        // code here
+        
+        if(head == null) return head;
+        head = head.next;
+        return head;
+    }
+}
+
+// practice at : https://www.geeksforgeeks.org/problems/delete-head-of-linked-list/1
